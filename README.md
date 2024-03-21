@@ -1,7 +1,7 @@
 Just a Test for Muon trajectories rebuilding work.
 
 1.分支创建
-$ git checkout -b dev
+$ git switch -c dev
 
 -b表示创建并切换，相当于以下两条命令：
 
@@ -13,5 +13,11 @@ Switched to branch 'dev'
 $ git branch
 
 3.切换分支
-$ git checkout main
+$ git switch main
+
+4.合并分支
+$ git merge test
+
+5.删除分支
+$ git branch -d dev
 
