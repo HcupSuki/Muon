@@ -27,8 +27,14 @@ $ git merge --no-ff -m "merge with no-ff" dev
 --no-ff为禁用快速合并参数，可以保留合并信息
 -m给commit写注释
 
+!!!!!!
 查看
 $ git log --graph --pretty=oneline --abbrev-commit
+
+$ git log --pretty=oneline --abbrev-commit
+
+--abbrev-commit 让commit前面的密钥更短
+--pretty=oneline 处于一条直线？
 
 7.未提交时暂时保存工作
 
