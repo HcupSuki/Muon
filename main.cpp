@@ -25,6 +25,7 @@ int main()
     vector<double> v1;//储存两个模拟点位置
     vector<double> v2;
     vector<double> v3;
+    //实验变更
     vector<double> v4;
     vector<double> gx;//储存真实直线参数
     vector<double> ex;
