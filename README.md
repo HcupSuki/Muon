@@ -74,3 +74,23 @@ $ git remote -v
 如果git pull提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream-to <branch-name> origin/<branch-name>。
 
 这就是多人协作的工作模式，一旦熟悉了，就非常简单。
+
+____________________________________________________________
+
+标签
+
+1.新建标签
+$ git tag v1.0（对当前head的commit打标签）
+
+$ git tag v0.9 f52c633（对特定id的commit打标签）
+
+2.查看标签
+$ git tag
+
+$ git show <tagname>（查看特定标签）
+
+3.标签加说明
+$ git tag -a v0.1 -m "version 0.1 released" 1094adb
+
+-a v0.1指定标签名
+-m 指定说明文字
