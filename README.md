@@ -94,3 +94,13 @@ $ git tag -a v0.1 -m "version 0.1 released" 1094adb
 
 -a v0.1指定标签名
 -m 指定说明文字
+
+4.
+命令git push origin <tagname>可以推送一个本地标签；
+
+命令git push origin --tags可以推送全部未推送过的本地标签；
+
+命令git tag -d <tagname>可以删除一个本地标签；
+
+命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
+
